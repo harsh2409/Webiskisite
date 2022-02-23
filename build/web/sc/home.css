@@ -1,0 +1,16 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14 Feb, 2022, 5:03:38 PM
+    Author     : hp
+*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.navbar{
+    width: 100%;
+    background-color:#000000;
+    height:100px;
+    
+}

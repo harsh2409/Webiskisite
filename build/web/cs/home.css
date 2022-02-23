@@ -1,0 +1,177 @@
+body {
+	
+	font-family: arial, helvetica, sans-serif;
+	margin: 0 auto;
+       
+       
+        
+      
+    
+    
+}
+
+html{
+   scroll-behavior:smooth; 
+}
+
+
+
+
+
+
+.navbar{
+    
+    
+    
+    width: 100%;
+    z-index: 999;
+  transition: all 0.3s ease;
+  display: flex;
+  position: inline;
+  align-items: center;
+  
+  
+ 
+    
+}
+.navlist{
+    
+    float:right;
+    margin-left: 30%;
+    text-decoration: none;
+    
+   
+
+ 
+}
+
+.navbar img{
+    margin-left:100px;
+    margin-top:15px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+.home{
+    
+
+  
+   
+    font-family: 'Ubuntu', sans-serif;
+    
+    
+     
+   
+    
+}
+
+
+/* home */
+.row{
+    display: flex;
+    align-items: center;
+}
+.homeimage{
+    margin-left: 100px;
+    
+}
+.homeimage img{
+    border-radius:5px;
+    
+}
+.home{
+   
+    align-self:center!important;
+    display: flex;
+    text-align: center;
+    height: 80vh;
+    min-height: 50px;
+    scroll-behavior: smooth;
+}
+.home .max-width{
+  width: 100%;
+  display: flex;
+}
+.home .max-width .row{
+  margin-right: 0;
+}
+.home .home-content .text-1{
+    font-size: 23px;
+    margin-left: 180px;
+    opacity:0.9;
+    font-family: cursive;
+    color:white;
+}
+.home .home-content .text-2{
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: 20px;
+    color:white;
+}
+.home .home-content .text-3{
+    font-size: 75px;
+    margin-left: 180px;
+    opacity:0.9;
+    font-family: cursive;
+    color:white;
+}
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+
+.home .home-content a:hover{
+    color: crimson;
+    background: none;
+}
+
+.menu{
+    float:right;
+    list-style: none;
+}
+.navbar .menu li{
+    display: inline-block;
+    padding-right: 30px;
+    font-size: 30px;
+    list-style: none;
+    
+    
+}
+
+#sbtn{
+    
+}
+
+.navbar .menu li a{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: monospace;
+    font-style:normal;
+    transition: color 0.5s ease;
+    text-decoration: none;
+}
+.navbar .menu li a:hover{
+    color: #cab209;
+}
+.navbar.sticky .menu li a:hover{
+    color: #fff;
+}
+
+/**/
+
+.titlehead{
+    text-color:#ffca33;
+}
+.menu-btn{
+    font-size: 30px;
+}
